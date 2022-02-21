@@ -22,6 +22,7 @@ url_login = "https://www.ecalc.ch/calcmember/login.php?https://www.ecalc.ch/xcop
 
 
 
+
 navegador.get(url_login)
 sleep(2)
 login_ecalc = navegador.find_element_by_xpath('//*[@id="username"]')
